@@ -1,0 +1,38 @@
+//nhiều đèn led
+int led = 8;
+int led1 = 12;
+void setup(){
+  pinMode (led, OUTPUT);
+  pinMode (led1, OUTPUT);
+}
+
+void loop(){
+   digitalWrite(led,  HIGH);
+  delay(50);
+  digitalWrite(led,  LOW);
+  delay(50);
+
+  digitalWrite(led1,  HIGH);
+  delay(50);
+  digitalWrite(led1,  LOW);
+  delay(50);
+}
+
+
+
+
+// nhiều đèn led 
+int led
+void setup {
+  pinMode (led, OUTPUT)
+  }
+void loop () {
+   for ( int led = 0; led <= 2; led++ ) {
+      //Serial.print (led) ;
+      //Serial.print (‘\r’) ;
+      digitalWrite (led, HIGH);
+      delay(50);
+      digitalWrite (led, LOW);
+      delay(25);
+   }
+}
